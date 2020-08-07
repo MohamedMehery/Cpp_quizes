@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main() {
+int main3123() {
 	/* Enter your code here. Read input from STDIN. Print output to STDOUT */
 	int i, j,k, num_of_inputs, num_of_queries;
 	int arr_size;
@@ -37,9 +37,16 @@ int main() {
 		cout << array_input[queries_input[k][0]][queries_input[k][1]]<<endl;
 	}
 
-
-	delete[] array_input;
-	delete[] queries_input;
+	for (i = 0; i < num_of_inputs; i++)
+	{
+		delete[] array_input[i];
+	}
+	for (i = 0; i < num_of_queries; i++)
+	{
+		delete[] queries_input[i];
+	}
+	//delete[] array_input;
+	//delete[] queries_input;
 	while (1);
 	return 0;
 }
