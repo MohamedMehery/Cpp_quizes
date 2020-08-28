@@ -59,7 +59,7 @@ public:
 	}
 };
 
-int main() {
+int main43() {
 	int n, capacity, i;
 	cin >> n >> capacity;
 	LRUCache l(capacity);

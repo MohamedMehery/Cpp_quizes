@@ -115,6 +115,7 @@
     <ClCompile Include="exception_inheritance.cpp" />
     <ClCompile Include="Exception_server.cpp" />
     <ClCompile Include="minStart.cpp" />
+    <ClCompile Include="Permutation_string.cpp" />
     <ClCompile Include="Variable Sized Arrays.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
