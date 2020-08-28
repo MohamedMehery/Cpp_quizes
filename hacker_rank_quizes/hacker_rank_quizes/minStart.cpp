@@ -57,7 +57,7 @@ int recursion_square(int n)
 	return square;
 }
 
-int main()
+int main321()
 {
 	random_device rd;
 	mt19937 mt(rd());

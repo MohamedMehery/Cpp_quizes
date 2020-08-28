@@ -1,3 +1,13 @@
-﻿  minStart.cpp
+﻿  Exception_server.cpp
+c:\users\mohamed mehery\documents\github\cpp_quizes\hacker_rank_quizes\hacker_rank_quizes\exception_server.cpp(18): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+c:\users\mohamed mehery\documents\github\cpp_quizes\hacker_rank_quizes\hacker_rank_quizes\exception_server.cpp(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\mohamed mehery\documents\github\cpp_quizes\hacker_rank_quizes\hacker_rank_quizes\exception_server.cpp(21): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\mohamed mehery\documents\github\cpp_quizes\hacker_rank_quizes\hacker_rank_quizes\exception_server.cpp(22): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+c:\users\mohamed mehery\documents\github\cpp_quizes\hacker_rank_quizes\hacker_rank_quizes\exception_server.cpp(23): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+c:\users\mohamed mehery\documents\github\cpp_quizes\hacker_rank_quizes\hacker_rank_quizes\exception_server.cpp(42): warning C4101: 'error': unreferenced local variable
+  Abstract_class.cpp
+c:\users\mohamed mehery\documents\github\cpp_quizes\hacker_rank_quizes\hacker_rank_quizes\abstract_class.cpp(39): warning C4018: '<': signed/unsigned mismatch
+c:\users\mohamed mehery\documents\github\cpp_quizes\hacker_rank_quizes\hacker_rank_quizes\abstract_class.cpp(48): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
   hacker_rank_quizes.vcxproj -> C:\Users\Mohamed Mehery\Documents\GitHub\Cpp_quizes\hacker_rank_quizes\Debug\hacker_rank_quizes.exe
   hacker_rank_quizes.vcxproj -> C:\Users\Mohamed Mehery\Documents\GitHub\Cpp_quizes\hacker_rank_quizes\Debug\hacker_rank_quizes.pdb (Partial PDB)
