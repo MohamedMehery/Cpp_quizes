@@ -38,8 +38,8 @@ public:
 int main()
 {
 	Permutation *p = new Permutation;
-	string st = "ABC";
-	p->calculate(st, 0, 2);
+	string st = "0123456789";
+	p->calculate(st, 0, st.length()-1);
 
 	delete p;
 	getchar();
