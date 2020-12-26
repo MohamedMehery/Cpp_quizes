@@ -35,7 +35,7 @@ public:
 
 };
 
-int main()
+int main3737()
 {
 	Permutation *p = new Permutation;
 	string st = "0123456789";

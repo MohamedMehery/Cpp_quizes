@@ -36,5 +36,11 @@
     <ClCompile Include="Permutation_string.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="countsetbits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="triple_sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
