@@ -41,11 +41,35 @@ void func(Base & object)
 
 }
 
+void sorting_alg(int * arr, int size)
+{
+	for (int i = 0; i < size - 1; i++)
+	{
+		int temp;
+		for (int j = 0; j < size - i -1 ; j++)
+		{
+			if (arr[j] > arr[j + 1])
+			{
+				temp = arr[j];
+				arr[j] = arr[j + 1];
+				arr[j + 1] = temp;
+				
+			}
+			
+
+		}
+	}
+}
+
 int main()
 {
 	Base b1(3);
 	func(b1);
 	Driven d1;
+
+	int arr[5] = { 3 ,4, 2, 1, 5 };
+	sorting_alg(arr, 5);
+
 	getchar();
 	return 0;
 }
