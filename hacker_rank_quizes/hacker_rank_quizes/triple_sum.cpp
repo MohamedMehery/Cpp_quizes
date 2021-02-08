@@ -21,9 +21,17 @@ long triplets(vector<int> a, vector<int> b, vector<int> c) {
 class Base {
 	int x;
 public:
-	Base() { ; }
+	Base() { cout << "base" << endl ; }
 	Base(int x) :x(x) { ; }
 	friend void func(Base & object);	
+};
+
+class Driven: public Base {
+public:
+	Driven() 
+	{
+		cout << " Driven " << endl;
+	}
 };
 
 void func(Base & object)
@@ -37,6 +45,7 @@ int main()
 {
 	Base b1(3);
 	func(b1);
+	Driven d1;
 	getchar();
 	return 0;
 }
