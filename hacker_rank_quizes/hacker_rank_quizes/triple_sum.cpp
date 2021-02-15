@@ -4,6 +4,7 @@
 #include <fstream>
 #include <algorithm>
 #include <iterator>
+#include <stdio.h>
 
 using namespace std;
 
@@ -41,24 +42,30 @@ void func(Base & object)
 
 }
 
-void sorting_alg(int * arr, int size)
+void pascal_tri(void)
 {
-	for (int i = 0; i < size - 1; i++)
-	{
-		int temp;
-		for (int j = 0; j < size - i -1 ; j++)
-		{
-			if (arr[j] > arr[j + 1])
-			{
-				temp = arr[j];
-				arr[j] = arr[j + 1];
-				arr[j + 1] = temp;
-				
-			}
-			
+	int rows, cal = 1, space, i, j;
 
+	printf("Enter number of rows: ");//enter number of rows for generating the pascal triangle
+	cin >> rows;
+
+	for (i = 0; i < rows; i++)            // outer loop for displaying rows
+	{
+		for (space = 1; space <= rows - i; space++) // space for every row starting
+			printf("  ");
+
+		for (j = 0; j < i; j++)     // inner loop for displaying the pascal triangle of numbers
+		{
+			if (j == 0 || i == 0)     // either outer loop value or inner-loop value is "0 " it prints 1
+				cal = 1;
+			else
+				cal = cal * (i - j + 1) / j;  //calculate the coefficient
+
+			printf("%4d", cal);
 		}
+		printf("\n");
 	}
+
 }
 
 int main()
@@ -66,11 +73,8 @@ int main()
 	Base b1(3);
 	func(b1);
 	Driven d1;
-
-	int arr[5] = { 3 ,4, 2, 1, 5 };
-	sorting_alg(arr, 5);
-
-	getchar();
+	pascal_tri();
+	while (1);
 	return 0;
 }
 
