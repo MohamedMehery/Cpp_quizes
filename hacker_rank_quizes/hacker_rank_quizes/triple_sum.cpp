@@ -68,7 +68,7 @@ void pascal_tri(void)
 
 }
 
-int main()
+int main21341()
 {
 	Base b1(3);
 	func(b1);

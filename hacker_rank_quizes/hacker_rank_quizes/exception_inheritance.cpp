@@ -1,26 +1,29 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-#include <exception>
+//#include <exception>
 using namespace std;
 
 /* Define the exception here */
-class BadLengthException : public exception {
-private:   
-	char *msg;
+
+class BadLengthException : public exception
+{
+private:
+	char * msg;
 
 public:
 	BadLengthException(int n)
 	{
 		msg = new char[2];
-		msg[0] = n + '0'; // len < 5
+		msg[0] = n + '0';
 		msg[1] = '\0';
 	}
-	//~BadLengthException()  { delete msg; }
-	const char *what() const throw()
+	const char * what() const throw()	//what function overloading
 	{
 		return msg;
 	}
+
+
 };
 
 bool checkUsername(string username) {
@@ -37,7 +40,7 @@ bool checkUsername(string username) {
 	return isValid;
 }
 
-int main55() {
+int main() {
 	int T; cin >> T;
 	while (T--) {
 		string username;

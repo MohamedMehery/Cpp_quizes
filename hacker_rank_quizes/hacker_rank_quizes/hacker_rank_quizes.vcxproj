@@ -112,7 +112,9 @@
   <ItemGroup>
     <ClCompile Include="Abstract_class.cpp" />
     <ClCompile Include="Box_it.cpp" />
+    <ClCompile Include="class-object.cpp" />
     <ClCompile Include="countsetbits.cpp" />
+    <ClCompile Include="exception-handling.cpp" />
     <ClCompile Include="exception_inheritance.cpp" />
     <ClCompile Include="Exception_server.cpp" />
     <ClCompile Include="minStart.cpp" />

@@ -42,5 +42,11 @@
     <ClCompile Include="triple_sum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="class-object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exception-handling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
