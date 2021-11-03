@@ -1,3 +1,6 @@
+#ifndef _LL_H_
+#define _LL_H_
+
 #include <iostream>
 
 using namespace std;
@@ -90,3 +93,25 @@ void recursion_reverse(list *L , Node *pivot)
 	}
 }
 
+bool Detect_loop(list *L)
+{
+	auto pivot = L->head;
+	auto comp = L->head;
+	while(pivot)
+	{
+		while(comp)
+		{
+			if (comp == pivot)
+				return true;
+			else
+			{
+				comp = comp->next;
+			}
+		}
+		pivot = pivot->next;
+
+	}
+	return false;
+}
+
+#endif _LL_H_
