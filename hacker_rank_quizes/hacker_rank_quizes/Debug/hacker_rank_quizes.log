@@ -1,2 +1,3 @@
-﻿  exception_inheritance.cpp
+﻿  validstr.cpp
+c:\users\mohamed mehery\documents\github\cpp_quizes\hacker_rank_quizes\hacker_rank_quizes\validstr.cpp(21): warning C4018: '<': signed/unsigned mismatch
   hacker_rank_quizes.vcxproj -> C:\Users\Mohamed Mehery\Documents\GitHub\Cpp_quizes\hacker_rank_quizes\Debug\hacker_rank_quizes.exe

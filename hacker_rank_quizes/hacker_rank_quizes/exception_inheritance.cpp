@@ -40,7 +40,7 @@ bool checkUsername(string username) {
 	return isValid;
 }
 
-int main() {
+int main968() {
 	int T; cin >> T;
 	while (T--) {
 		string username;
