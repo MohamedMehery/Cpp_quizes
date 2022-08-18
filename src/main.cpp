@@ -8,8 +8,8 @@ using namespace std;
 
 int main (int argc , char * argv[])
 {
-    while(argc--) 
-        std::cout << argv[argc] <<"\n";
-    std::cout<< std::endl;
+    const int & lvalue = 10;
+    int && rvalue = 10;
+    int & lvalue = 2;   //error
     return 0;
 }
