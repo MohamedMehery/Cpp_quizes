@@ -128,29 +128,29 @@ hello/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/build
 .PHONY : hello/fast
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
+src/move_semantics.obj: src/move_semantics.cpp.obj
+.PHONY : src/move_semantics.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+src/move_semantics.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/src/move_semantics.cpp.obj
+.PHONY : src/move_semantics.cpp.obj
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/move_semantics.i: src/move_semantics.cpp.i
+.PHONY : src/move_semantics.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/move_semantics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/src/move_semantics.cpp.i
+.PHONY : src/move_semantics.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/move_semantics.s: src/move_semantics.cpp.s
+.PHONY : src/move_semantics.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/move_semantics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/src/move_semantics.cpp.s
+.PHONY : src/move_semantics.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... hello
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
+	@echo ... src/move_semantics.obj
+	@echo ... src/move_semantics.i
+	@echo ... src/move_semantics.s
 .PHONY : help
 
 

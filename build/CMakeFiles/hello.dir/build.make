@@ -68,29 +68,29 @@ include CMakeFiles/hello.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hello.dir/flags.make
 
-CMakeFiles/hello.dir/src/main.cpp.obj: CMakeFiles/hello.dir/flags.make
-CMakeFiles/hello.dir/src/main.cpp.obj: CMakeFiles/hello.dir/includes_CXX.rsp
-CMakeFiles/hello.dir/src/main.cpp.obj: ../src/main.cpp
-CMakeFiles/hello.dir/src/main.cpp.obj: CMakeFiles/hello.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Mohamed Mehery\Documents\GitHub\Cpp_quizes\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello.dir/src/main.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/src/main.cpp.obj -MF CMakeFiles\hello.dir\src\main.cpp.obj.d -o CMakeFiles\hello.dir\src\main.cpp.obj -c "C:\Users\Mohamed Mehery\Documents\GitHub\Cpp_quizes\src\main.cpp"
+CMakeFiles/hello.dir/src/move_semantics.cpp.obj: CMakeFiles/hello.dir/flags.make
+CMakeFiles/hello.dir/src/move_semantics.cpp.obj: CMakeFiles/hello.dir/includes_CXX.rsp
+CMakeFiles/hello.dir/src/move_semantics.cpp.obj: ../src/move_semantics.cpp
+CMakeFiles/hello.dir/src/move_semantics.cpp.obj: CMakeFiles/hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Mohamed Mehery\Documents\GitHub\Cpp_quizes\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello.dir/src/move_semantics.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/src/move_semantics.cpp.obj -MF CMakeFiles\hello.dir\src\move_semantics.cpp.obj.d -o CMakeFiles\hello.dir\src\move_semantics.cpp.obj -c "C:\Users\Mohamed Mehery\Documents\GitHub\Cpp_quizes\src\move_semantics.cpp"
 
-CMakeFiles/hello.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/src/main.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Mohamed Mehery\Documents\GitHub\Cpp_quizes\src\main.cpp" > CMakeFiles\hello.dir\src\main.cpp.i
+CMakeFiles/hello.dir/src/move_semantics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/src/move_semantics.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Mohamed Mehery\Documents\GitHub\Cpp_quizes\src\move_semantics.cpp" > CMakeFiles\hello.dir\src\move_semantics.cpp.i
 
-CMakeFiles/hello.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/src/main.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Mohamed Mehery\Documents\GitHub\Cpp_quizes\src\main.cpp" -o CMakeFiles\hello.dir\src\main.cpp.s
+CMakeFiles/hello.dir/src/move_semantics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/src/move_semantics.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Mohamed Mehery\Documents\GitHub\Cpp_quizes\src\move_semantics.cpp" -o CMakeFiles\hello.dir\src\move_semantics.cpp.s
 
 # Object files for target hello
 hello_OBJECTS = \
-"CMakeFiles/hello.dir/src/main.cpp.obj"
+"CMakeFiles/hello.dir/src/move_semantics.cpp.obj"
 
 # External object files for target hello
 hello_EXTERNAL_OBJECTS =
 
-hello.exe: CMakeFiles/hello.dir/src/main.cpp.obj
+hello.exe: CMakeFiles/hello.dir/src/move_semantics.cpp.obj
 hello.exe: CMakeFiles/hello.dir/build.make
 hello.exe: CMakeFiles/hello.dir/linklibs.rsp
 hello.exe: CMakeFiles/hello.dir/objects1.rsp
