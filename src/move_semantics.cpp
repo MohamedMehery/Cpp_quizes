@@ -19,60 +19,74 @@ class String
         int slen ;
 
     public:
-        String() : slen (0)
+        String()
         {
             pdata = nullptr;
+            slen = 0;
         }
         String(const char * str)
         {
-            printf("Create\n");
             slen = strlen(str);
             pdata = new char[slen];
             memcpy(pdata , str , slen);
         }
-
-        String(const String & str ) //const reference can be lvalue or rvalue, copy constructor
+        String(const String & str)
         {
-            cout << "Copy" << endl;
+            cout << "Copy constructor\n";
             slen = str.slen;
             pdata = new char[slen];
             memcpy(pdata , str.pdata , slen);
         }
-
-        String(String && str) noexcept
+        String(String && str)
         {
-            cout << "Move Constructor" << endl;
-            
-            delete [] str.pdata ;
-            pdata = str.pdata;
-            slen = str.slen;
-
-            str.pdata = nullptr;
-            str.slen = 0;
-        }        
-
-        String& operator=(String && str) noexcept
-        {
-            cout << "Move Assignment" << endl;
-            if(this !=  &str)
+            cout << "Move constructor" << endl;
+            if( this != &str)
             {
-                delete [] pdata;
+                delete [] str.pdata ;
+
                 pdata = str.pdata;
                 slen = str.slen;
+
                 str.pdata = nullptr;
-                str.slen = 0;                
+                str.slen = 0;
+            }
+        }
+        String & operator=(String && str)
+        {
+            cout << "Move assignment" << endl;
+            if(this != &str)
+            {
+                delete [] pdata;
+
+                pdata = str.pdata ;
+                slen = str.slen;
+
+                str.pdata = nullptr;
+                str.slen = 0;
             }
             return *this;
         }
+        String & operator()(String && str)
+        {
+            cout << "Move operator" << endl;
+            if(this != &str)
+            {
+                delete [] pdata;
 
+                pdata = str.pdata ;
+                slen = str.slen;
+
+                str.pdata = nullptr;
+                str.slen = 0;
+            }
+            return *this;            
+        }
         ~String()
         {
-            cout << "Destroyed" << endl;
-            delete [] pdata;
+            delete [] pdata ;
             pdata = nullptr;
             slen = 0;
         }
-
         void print()
         {
             for(auto i = 0 ; i < slen ; i++)
@@ -94,7 +108,7 @@ int main(int argc , char * argv[])
     cout << "Dest : ";
     Dest.print();
 
-    Dest = (String &&)apple;
+    Dest((String &&)apple);    //Not the most elegent way and won't work all time
 
     cout << "After apple moved to Dest\n";
     cout << "Apple : ";
