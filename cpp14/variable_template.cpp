@@ -4,8 +4,8 @@
 
 using namespace std;
 
-template<typename T>
-T pi = static_cast<T>((long double) 22/7);
+template <typename T>
+T pi = static_cast<T>( (long double) (22/7));    //  dynamic_cast<>() validate the output so that it guarntee the runtime cast
 
 int main(int argc , char * argv[])
 {   
