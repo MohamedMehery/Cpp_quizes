@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hello.dir/src/move_semantics.cpp.obj"
-  "CMakeFiles/hello.dir/src/move_semantics.cpp.obj.d"
+  "CMakeFiles/hello.dir/src/main.cpp.obj"
+  "CMakeFiles/hello.dir/src/main.cpp.obj.d"
   "hello.exe"
   "hello.exe.manifest"
   "hello.pdb"

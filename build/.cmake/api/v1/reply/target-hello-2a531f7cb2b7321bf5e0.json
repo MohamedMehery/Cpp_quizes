@@ -108,7 +108,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/move_semantics.cpp",
+			"path" : "src/main.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

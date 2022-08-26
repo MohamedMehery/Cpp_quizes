@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Mohamed Mehery/Documents/GitHub/Cpp_quizes/src/move_semantics.cpp" "CMakeFiles/hello.dir/src/move_semantics.cpp.obj" "gcc" "CMakeFiles/hello.dir/src/move_semantics.cpp.obj.d"
+  "C:/Users/Mohamed Mehery/Documents/GitHub/Cpp_quizes/src/main.cpp" "CMakeFiles/hello.dir/src/main.cpp.obj" "gcc" "CMakeFiles/hello.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

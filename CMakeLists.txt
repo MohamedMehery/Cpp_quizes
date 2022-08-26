@@ -5,7 +5,7 @@ if( NOT CMAKE_CXX_STANDARD)
     set( CMAKE_CXX_STANDARD 14)
 endif()
 
-set( SRC_FILES src/move_semantics.cpp)
+set( SRC_FILES src/main.cpp)
 
 add_executable(hello ${SRC_FILES})
 
