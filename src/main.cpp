@@ -47,16 +47,23 @@ int main()
     // vector<char> vc (10);
     // cout << sizeof(vc) << endl;     //24
     // cout << sizeof(vb) << endl;     //40
-    UN u1 ;
-    cout << sizeof(u1) << endl;         //32
-    int x =4 , y , z;
-    printf("%d %d %d\n",u1.x = 20 , u1.c , u1.sh = 30 );
-    printf("%d %d %d\n", ++x , y = ++x , z = ++x , x = 6);
-    union reg R1 ;
-    R1.byte = 10;
-    R1.Bit_t.B4 = 1;
-    cout << sizeof(reg) << endl;
-    printf("%d\n" , R1.byte);
-    cout << (int)R1.byte << endl;
+    // UN u1 ;
+    // cout << sizeof(u1) << endl;         //32
+    // int x =4 , y , z;
+    // printf("%d %d %d\n",u1.x = 20 , u1.c , u1.sh = 30 );
+    // printf("%d %d %d\n", ++x , y = ++x , z = ++x , x = 6);
+    // union reg R1 ;
+    // R1.byte = 10;
+    // R1.Bit_t.B4 = 1;
+    // cout << sizeof(reg) << endl;
+    // printf("%d\n" , R1.byte);
+    // cout << (int)R1.byte << endl;
+    struct s
+    {
+        int bit1: 1;
+        int bit3: 4;
+        int bit4: 4;
+    }data{1,2,13};
+    printf("i =%d a=%d k=%d\n", data.bit1, data.bit3, data.bit4);
     return 0;
 }
