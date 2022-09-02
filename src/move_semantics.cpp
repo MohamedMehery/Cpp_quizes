@@ -42,7 +42,7 @@ class String
             cout << "Move constructor" << endl;
             if( this != &str)
             {
-                delete [] str.pdata ;
+                delete [] pdata ;
 
                 pdata = str.pdata;
                 slen = str.slen;
@@ -68,7 +68,7 @@ class String
         }
         String & operator()(String && str)
         {
-            cout << "Move operator" << endl;
+            cout << "Move call operator" << endl;
             if(this != &str)
             {
                 delete [] pdata;
@@ -81,6 +81,7 @@ class String
             }
             return *this;            
         }
+
         ~String()
         {
             delete [] pdata ;
