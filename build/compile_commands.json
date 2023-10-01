@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/hello.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\hello.dir\\src\\main.cpp.obj -c C:\\Users\\Mohamed_Mehery\\Documents\\GitHub\\Cpp_quizes\\src\\main.cpp",
+  "file": "C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/src/main.cpp",
+  "output": "CMakeFiles/hello.dir/src/main.cpp.obj"
+}
+]

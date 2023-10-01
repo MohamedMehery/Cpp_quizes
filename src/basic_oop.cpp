@@ -6,6 +6,8 @@
 
 using namespace std;
 
+typedef enum Dev_Error_t {NO_ERROR = 0 , GLOBAL_ERROR = 0xA0, LOCAL_ERROR = 0xB0};
+
 class Box
 {
     public:
@@ -37,9 +39,11 @@ class Carton : public Box
 
 int main (int argc , char * argv[])
 {
+    Dev_Error_t main_error = GLOBAL_ERROR;
+    cout << main_error << endl;
     const int & lvalue {10};
     int && rvalue {10};
-    //int & lvalue {2};   //error
+    // int & lvalue {2};   //error
 
     Box b1 ;
     Box b2 {b1};    //Copy constructor will be called

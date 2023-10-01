@@ -34,7 +34,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 12,
+				"line" : 13,
 				"parent" : 0
 			}
 		]
@@ -45,14 +45,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-std=gnu++14"
+					"fragment" : "-g -std=gnu++14"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/Mohamed Mehery/Documents/GitHub/Cpp_quizes/hdr "
+					"path" : "C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/hdr "
 				}
 			],
 			"language" : "CXX",
@@ -75,6 +75,10 @@
 	{
 		"commandFragments" : 
 		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
 			{
 				"fragment" : "",
 				"role" : "flags"

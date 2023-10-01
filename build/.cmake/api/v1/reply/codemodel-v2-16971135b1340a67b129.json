@@ -6,6 +6,7 @@
 			[
 				{
 					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20.5"
@@ -18,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -38,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "hello::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hello-2a531f7cb2b7321bf5e0.json",
+					"jsonFile" : "target-hello-Debug-86e58a4d91b328ba9765.json",
 					"name" : "hello",
 					"projectIndex" : 0
 				}
@@ -48,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Mohamed Mehery/Documents/GitHub/Cpp_quizes/build",
-		"source" : "C:/Users/Mohamed Mehery/Documents/GitHub/Cpp_quizes"
+		"build" : "C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/build",
+		"source" : "C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 2
+		"minor" : 5
 	}
 }
