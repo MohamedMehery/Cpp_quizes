@@ -92,6 +92,7 @@ hello_EXTERNAL_OBJECTS =
 
 hello.exe: CMakeFiles/hello.dir/src/main.cpp.obj
 hello.exe: CMakeFiles/hello.dir/build.make
+hello.exe: lib/libexample_lib.a
 hello.exe: CMakeFiles/hello.dir/linkLibs.rsp
 hello.exe: CMakeFiles/hello.dir/objects1.rsp
 hello.exe: CMakeFiles/hello.dir/link.txt

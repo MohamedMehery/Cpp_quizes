@@ -137,4 +137,5 @@ CMakeFiles/hello.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/12.2.0/bits/algorithmfwd.h \
  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h \
  C:/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h \
- C:/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h
+ C:/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
+ C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/lib/example.hpp

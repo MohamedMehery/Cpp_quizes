@@ -33,6 +33,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeRCCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeSystem.cmake"
+  "C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/lib/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -44,9 +45,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/hello.dir/DependInfo.cmake"
+  "lib/CMakeFiles/example_lib.dir/DependInfo.cmake"
   )

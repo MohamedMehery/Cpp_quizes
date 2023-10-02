@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build\CMakeFiles C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build\CMakeFiles C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build\lib\\CMakeFiles\progress.marks
+	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,68 +102,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named hello
+# Convenience name for target.
+lib/CMakeFiles/example_lib.dir/rule:
+	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/CMakeFiles/example_lib.dir/rule
+.PHONY : lib/CMakeFiles/example_lib.dir/rule
 
-# Build rule for target.
-hello: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hello
-.PHONY : hello
-
-# fast build rule for target.
-hello/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/build
-.PHONY : hello/fast
-
-#=============================================================================
-# Target rules for targets named example_lib
-
-# Build rule for target.
-example_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 example_lib
+# Convenience name for target.
+example_lib: lib/CMakeFiles/example_lib.dir/rule
 .PHONY : example_lib
 
 # fast build rule for target.
 example_lib/fast:
-	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\example_lib.dir\build.make lib/CMakeFiles/example_lib.dir/build
+	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\example_lib.dir\build.make lib/CMakeFiles/example_lib.dir/build
 .PHONY : example_lib/fast
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
+example.obj: example.cpp.obj
+.PHONY : example.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+example.cpp.obj:
+	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\example_lib.dir\build.make lib/CMakeFiles/example_lib.dir/example.cpp.obj
+.PHONY : example.cpp.obj
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+example.i: example.cpp.i
+.PHONY : example.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+example.cpp.i:
+	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\example_lib.dir\build.make lib/CMakeFiles/example_lib.dir/example.cpp.i
+.PHONY : example.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+example.s: example.cpp.s
+.PHONY : example.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+example.cpp.s:
+	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\example_lib.dir\build.make lib/CMakeFiles/example_lib.dir/example.cpp.s
+.PHONY : example.cpp.s
 
 # Help Target
 help:
@@ -174,10 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... example_lib
-	@echo ... hello
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
+	@echo ... example.obj
+	@echo ... example.i
+	@echo ... example.s
 .PHONY : help
 
 
@@ -189,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

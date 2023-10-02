@@ -1,3 +1,6 @@
 C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/build/CMakeFiles/hello.dir
 C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/build/CMakeFiles/edit_cache.dir
 C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/build/lib/CMakeFiles/example_lib.dir
+C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/build/lib/CMakeFiles/edit_cache.dir
+C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/build/lib/CMakeFiles/rebuild_cache.dir

@@ -4,5 +4,11 @@
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/hello.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\hello.dir\\src\\main.cpp.obj -c C:\\Users\\Mohamed_Mehery\\Documents\\GitHub\\Cpp_quizes\\src\\main.cpp",
   "file": "C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/src/main.cpp",
   "output": "CMakeFiles/hello.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/build/lib",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++14 -o CMakeFiles\\example_lib.dir\\example.cpp.obj -c C:\\Users\\Mohamed_Mehery\\Documents\\GitHub\\Cpp_quizes\\lib\\example.cpp",
+  "file": "C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/lib/example.cpp",
+  "output": "lib/CMakeFiles/example_lib.dir/example.cpp.obj"
 }
 ]
