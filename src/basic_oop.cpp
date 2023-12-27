@@ -77,10 +77,12 @@ struct OwningInt
 {
     OwningInt() :  mint(new int)
     {
+        cout << "constuctor" << endl;
     }
     
     ~OwningInt()
     {
+        cout << "distructor" << endl;
         delete mint;
     }
 
@@ -90,14 +92,21 @@ struct OwningInt
 
 /** this function know that the integer has owning struct that control it's allocation deallocation in mem*/
 void owningfunc(const OwningInt & arg)
-{
-
+{   
+    try
+    {
+        OwningInt someint;
+        throw std::exception() ;
+    }
+    catch(const std::exception& e)
+    {
+        std::cerr << e.what() << '\n';
+    }
 }
 
 int main (int argc , char * argv[])
 {
-    struct OwningInt;
-
+    owningfunc(OwningInt());
     Dev_Error_t main_error = GLOBAL_ERROR;
     cout << main_error << endl;
     const int & lvalue {10};
