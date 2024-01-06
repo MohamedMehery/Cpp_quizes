@@ -156,7 +156,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=cpptut
+CMAKE_PROJECT_NAME:STATIC=hellocmake
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/msys64/mingw64/bin/ranlib.exe
@@ -239,6 +239,15 @@ CMAKE_STRIP:FILEPATH=C:/msys64/mingw64/bin/strip.exe
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+Project_BINARY_DIR:STATIC=C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/build
+
+//Value Computed by CMake
+Project_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes
+
+//Value Computed by CMake
 cpptut_BINARY_DIR:STATIC=C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/build
 
 //Value Computed by CMake
@@ -255,6 +264,24 @@ example_lib_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 example_lib_SOURCE_DIR:STATIC=C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/lib
+
+//Value Computed by CMake
+hello_cmake_BINARY_DIR:STATIC=C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/build
+
+//Value Computed by CMake
+hello_cmake_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+hello_cmake_SOURCE_DIR:STATIC=C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes
+
+//Value Computed by CMake
+hellocmake_BINARY_DIR:STATIC=C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/build
+
+//Value Computed by CMake
+hellocmake_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+hellocmake_SOURCE_DIR:STATIC=C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes
 
 
 ########################

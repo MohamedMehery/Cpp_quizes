@@ -16,12 +16,14 @@ using namespace std;
 //  auto z1 = std::move(z); //  int
 //  decltype(auto) z2 = std::move(z) ; // int&&
 
+
+// decltype(auto) make the function return to be auto reference
 decltype(auto) inc(int & x ){x++ ; return x;}
 
 int main(int argc , char * argv[])
 {
     int x = 5, y = 3;
-    int & z = inc(x);
+    int & z = inc(x);   // without decltype(auto) in function return type, this line will give error
     cout << z << endl;
     return 0;
 }
