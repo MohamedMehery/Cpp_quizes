@@ -72,15 +72,15 @@ lib/CMakeFiles/example_lib.dir/example.cpp.obj: lib/CMakeFiles/example_lib.dir/f
 lib/CMakeFiles/example_lib.dir/example.cpp.obj: C:/Users/Mohamed_Mehery/Documents/GitHub/Cpp_quizes/lib/example.cpp
 lib/CMakeFiles/example_lib.dir/example.cpp.obj: lib/CMakeFiles/example_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/example_lib.dir/example.cpp.obj"
-	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build\lib && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/example_lib.dir/example.cpp.obj -MF CMakeFiles\example_lib.dir\example.cpp.obj.d -o CMakeFiles\example_lib.dir\example.cpp.obj -c C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\lib\example.cpp
+	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build\lib && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/example_lib.dir/example.cpp.obj -MF CMakeFiles\example_lib.dir\example.cpp.obj.d -o CMakeFiles\example_lib.dir\example.cpp.obj -c C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\lib\example.cpp
 
 lib/CMakeFiles/example_lib.dir/example.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_lib.dir/example.cpp.i"
-	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build\lib && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\lib\example.cpp > CMakeFiles\example_lib.dir\example.cpp.i
+	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build\lib && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\lib\example.cpp > CMakeFiles\example_lib.dir\example.cpp.i
 
 lib/CMakeFiles/example_lib.dir/example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_lib.dir/example.cpp.s"
-	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build\lib && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\lib\example.cpp -o CMakeFiles\example_lib.dir\example.cpp.s
+	cd /d C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\build\lib && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Mohamed_Mehery\Documents\GitHub\Cpp_quizes\lib\example.cpp -o CMakeFiles\example_lib.dir\example.cpp.s
 
 # Object files for target example_lib
 example_lib_OBJECTS = \

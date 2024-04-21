@@ -29,19 +29,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 14,
+				"line" : 21,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 13,
+				"line" : 18,
 				"parent" : 0
 			}
 		]
@@ -49,12 +49,6 @@
 	"compileGroups" : 
 	[
 		{
-			"compileCommandFragments" : 
-			[
-				{
-					"fragment" : "-g -std=gnu++17"
-				}
-			],
 			"includes" : 
 			[
 				{
@@ -89,10 +83,6 @@
 	{
 		"commandFragments" : 
 		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
 			{
 				"fragment" : "",
 				"role" : "flags"

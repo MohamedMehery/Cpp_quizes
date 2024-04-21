@@ -21,7 +21,7 @@ class Unique_ptr
 
         Unique_ptr(T && init): entity(new(T))
         {
-            *this->entity = init;
+            *this->entity = move(init);
             cout << "Unique ptr move constructor!\n";
         }
 

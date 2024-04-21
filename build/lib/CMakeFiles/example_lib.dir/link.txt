@@ -1,2 +1,2 @@
-C:\msys64\mingw64\bin\ar.exe qc libexample_lib.a CMakeFiles/example_lib.dir/example.cpp.obj
-C:\msys64\mingw64\bin\ranlib.exe libexample_lib.a
+C:\msys64\ucrt64\bin\ar.exe qc libexample_lib.a CMakeFiles/example_lib.dir/example.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libexample_lib.a
