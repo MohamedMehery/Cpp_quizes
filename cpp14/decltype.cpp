@@ -20,10 +20,14 @@ using namespace std;
 // decltype(auto) make the function return to be auto reference
 decltype(auto) inc(int & x ){x++ ; return x;}
 
+decltype(auto) decr(int &y){y--; return y;}
+
 int main(int argc , char * argv[])
 {
     int x = 5, y = 3;
     int & z = inc(x);   // without decltype(auto) in function return type, this line will give error
-    cout << z << endl;
+    int & u = decr(x);
+
+    std::cout << z << std::endl;
     return 0;
 }
