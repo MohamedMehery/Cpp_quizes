@@ -1,0 +1,3 @@
+C:/Users/elshamey/Documents/GitHub/Cpp_quizes/threads/build/CMakeFiles/hello.dir
+C:/Users/elshamey/Documents/GitHub/Cpp_quizes/threads/build/CMakeFiles/edit_cache.dir
+C:/Users/elshamey/Documents/GitHub/Cpp_quizes/threads/build/CMakeFiles/rebuild_cache.dir
