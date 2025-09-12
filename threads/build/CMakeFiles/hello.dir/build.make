@@ -68,29 +68,29 @@ include CMakeFiles/hello.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hello.dir/flags.make
 
-CMakeFiles/hello.dir/src/lazy.cpp.obj: CMakeFiles/hello.dir/flags.make
-CMakeFiles/hello.dir/src/lazy.cpp.obj: CMakeFiles/hello.dir/includes_CXX.rsp
-CMakeFiles/hello.dir/src/lazy.cpp.obj: C:/Users/elshamey/Documents/GitHub/Cpp_quizes/threads/src/lazy.cpp
-CMakeFiles/hello.dir/src/lazy.cpp.obj: CMakeFiles/hello.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\elshamey\Documents\GitHub\Cpp_quizes\threads\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello.dir/src/lazy.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/src/lazy.cpp.obj -MF CMakeFiles\hello.dir\src\lazy.cpp.obj.d -o CMakeFiles\hello.dir\src\lazy.cpp.obj -c C:\Users\elshamey\Documents\GitHub\Cpp_quizes\threads\src\lazy.cpp
+CMakeFiles/hello.dir/src/ex2_mutex.cpp.obj: CMakeFiles/hello.dir/flags.make
+CMakeFiles/hello.dir/src/ex2_mutex.cpp.obj: CMakeFiles/hello.dir/includes_CXX.rsp
+CMakeFiles/hello.dir/src/ex2_mutex.cpp.obj: C:/Users/elshamey/Documents/GitHub/Cpp_quizes/threads/src/ex2_mutex.cpp
+CMakeFiles/hello.dir/src/ex2_mutex.cpp.obj: CMakeFiles/hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\elshamey\Documents\GitHub\Cpp_quizes\threads\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello.dir/src/ex2_mutex.cpp.obj"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/src/ex2_mutex.cpp.obj -MF CMakeFiles\hello.dir\src\ex2_mutex.cpp.obj.d -o CMakeFiles\hello.dir\src\ex2_mutex.cpp.obj -c C:\Users\elshamey\Documents\GitHub\Cpp_quizes\threads\src\ex2_mutex.cpp
 
-CMakeFiles/hello.dir/src/lazy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/src/lazy.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\elshamey\Documents\GitHub\Cpp_quizes\threads\src\lazy.cpp > CMakeFiles\hello.dir\src\lazy.cpp.i
+CMakeFiles/hello.dir/src/ex2_mutex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/src/ex2_mutex.cpp.i"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\elshamey\Documents\GitHub\Cpp_quizes\threads\src\ex2_mutex.cpp > CMakeFiles\hello.dir\src\ex2_mutex.cpp.i
 
-CMakeFiles/hello.dir/src/lazy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/src/lazy.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\elshamey\Documents\GitHub\Cpp_quizes\threads\src\lazy.cpp -o CMakeFiles\hello.dir\src\lazy.cpp.s
+CMakeFiles/hello.dir/src/ex2_mutex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/src/ex2_mutex.cpp.s"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\elshamey\Documents\GitHub\Cpp_quizes\threads\src\ex2_mutex.cpp -o CMakeFiles\hello.dir\src\ex2_mutex.cpp.s
 
 # Object files for target hello
 hello_OBJECTS = \
-"CMakeFiles/hello.dir/src/lazy.cpp.obj"
+"CMakeFiles/hello.dir/src/ex2_mutex.cpp.obj"
 
 # External object files for target hello
 hello_EXTERNAL_OBJECTS =
 
-hello.exe: CMakeFiles/hello.dir/src/lazy.cpp.obj
+hello.exe: CMakeFiles/hello.dir/src/ex2_mutex.cpp.obj
 hello.exe: CMakeFiles/hello.dir/build.make
 hello.exe: CMakeFiles/hello.dir/linkLibs.rsp
 hello.exe: CMakeFiles/hello.dir/objects1.rsp

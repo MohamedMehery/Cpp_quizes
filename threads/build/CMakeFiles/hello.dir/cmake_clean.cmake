@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hello.dir/src/lazy.cpp.obj"
-  "CMakeFiles/hello.dir/src/lazy.cpp.obj.d"
+  "CMakeFiles/hello.dir/src/ex2_mutex.cpp.obj"
+  "CMakeFiles/hello.dir/src/ex2_mutex.cpp.obj.d"
   "hello.exe"
   "hello.exe.manifest"
   "hello.pdb"

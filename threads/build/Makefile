@@ -128,29 +128,29 @@ hello/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/build
 .PHONY : hello/fast
 
-src/lazy.obj: src/lazy.cpp.obj
-.PHONY : src/lazy.obj
+src/ex2_mutex.obj: src/ex2_mutex.cpp.obj
+.PHONY : src/ex2_mutex.obj
 
 # target to build an object file
-src/lazy.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/src/lazy.cpp.obj
-.PHONY : src/lazy.cpp.obj
+src/ex2_mutex.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/src/ex2_mutex.cpp.obj
+.PHONY : src/ex2_mutex.cpp.obj
 
-src/lazy.i: src/lazy.cpp.i
-.PHONY : src/lazy.i
+src/ex2_mutex.i: src/ex2_mutex.cpp.i
+.PHONY : src/ex2_mutex.i
 
 # target to preprocess a source file
-src/lazy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/src/lazy.cpp.i
-.PHONY : src/lazy.cpp.i
+src/ex2_mutex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/src/ex2_mutex.cpp.i
+.PHONY : src/ex2_mutex.cpp.i
 
-src/lazy.s: src/lazy.cpp.s
-.PHONY : src/lazy.s
+src/ex2_mutex.s: src/ex2_mutex.cpp.s
+.PHONY : src/ex2_mutex.s
 
 # target to generate assembly for a file
-src/lazy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/src/lazy.cpp.s
-.PHONY : src/lazy.cpp.s
+src/ex2_mutex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/src/ex2_mutex.cpp.s
+.PHONY : src/ex2_mutex.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... hello
-	@echo ... src/lazy.obj
-	@echo ... src/lazy.i
-	@echo ... src/lazy.s
+	@echo ... src/ex2_mutex.obj
+	@echo ... src/ex2_mutex.i
+	@echo ... src/ex2_mutex.s
 .PHONY : help
 
 

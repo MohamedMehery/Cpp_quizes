@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.26.0)
+project(hello)
+
+# Set C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# ✅ Make Threads::Threads available
+find_package(Threads REQUIRED)
+
+# Define source files and headers
+set(SRC_FILES ${CMAKE_SOURCE_DIR}/src/lazy.cpp)
+set(SRC_FILES ${CMAKE_SOURCE_DIR}/src/ex2_mutex.cpp)
+
+set(HDR_FILES ${CMAKE_SOURCE_DIR}/hdr)
+
+# Create executable
+add_executable(hello ${SRC_FILES})
+target_include_directories(hello PUBLIC ${HDR_FILES})
+
+# Link to threads (on MinGW this may resolve to nothing, but it’s safe to keep)
+target_link_libraries(hello PRIVATE Threads::Threads)

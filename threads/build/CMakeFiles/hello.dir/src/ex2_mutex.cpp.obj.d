@@ -1,5 +1,5 @@
-CMakeFiles/hello.dir/src/lazy.cpp.obj: \
- C:\Users\elshamey\Documents\GitHub\Cpp_quizes\threads\src\lazy.cpp \
+CMakeFiles/hello.dir/src/ex2_mutex.cpp.obj: \
+ C:\Users\elshamey\Documents\GitHub\Cpp_quizes\threads\src\ex2_mutex.cpp \
  C:/msys64/mingw64/include/c++/14.2.0/iostream \
  C:/msys64/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -149,4 +149,8 @@ CMakeFiles/hello.dir/src/lazy.cpp.obj: \
  C:/msys64/mingw64/include/stdint.h \
  C:/msys64/mingw64/include/c++/14.2.0/limits \
  C:/msys64/mingw64/include/c++/14.2.0/ctime \
- C:/msys64/mingw64/include/c++/14.2.0/bits/parse_numbers.h
+ C:/msys64/mingw64/include/c++/14.2.0/bits/parse_numbers.h \
+ C:/msys64/mingw64/include/c++/14.2.0/chrono \
+ C:/msys64/mingw64/include/c++/14.2.0/mutex \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/std_mutex.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/unique_lock.h

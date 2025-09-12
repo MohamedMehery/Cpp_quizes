@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/elshamey/Documents/GitHub/Cpp_quizes/threads/src/lazy.cpp" "CMakeFiles/hello.dir/src/lazy.cpp.obj" "gcc" "CMakeFiles/hello.dir/src/lazy.cpp.obj.d"
+  "C:/Users/elshamey/Documents/GitHub/Cpp_quizes/threads/src/ex2_mutex.cpp" "CMakeFiles/hello.dir/src/ex2_mutex.cpp.obj" "gcc" "CMakeFiles/hello.dir/src/ex2_mutex.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
